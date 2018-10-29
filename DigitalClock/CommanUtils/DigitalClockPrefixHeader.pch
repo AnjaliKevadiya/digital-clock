@@ -1,0 +1,26 @@
+//
+//  DigitalClockPrefixHeader.pch
+//  DigitalClock
+//
+//  Created by Anjali Kevadiya on 10/25/18.
+//  Copyright © 2018 Anjali Kevadiya. All rights reserved.
+//
+
+#ifndef DigitalClockPrefixHeader_pch
+#define DigitalClockPrefixHeader_pch
+
+#import "DigitalClockHeader.h"
+#import "CommanUtils.h"
+
+#pragma mark - Custom Views
+#import "SingleDigitView.h"
+
+#pragma mark - Controllers
+#import "ViewController.h"
+#import "SettingsViewController.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DigitalClockPrefixHeader_pch */
